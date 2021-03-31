@@ -1,2 +1,8 @@
-package kitchenmanagement;public class IngredientStore {
+package kitchenmanagement;
+
+import java.util.Optional;
+
+public interface IngredientStore {
+
+    Optional<Ingredient> requestIngredient(Ingredient ingredient);
 }
